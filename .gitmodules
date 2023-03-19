@@ -4,3 +4,9 @@
 [submodule "vasm-mirror"]
 	path = vasm-mirror
 	url = https://github.com/mbitsnbites/vasm-mirror.git
+[submodule "joust"]
+	path = joust
+	url = git@github.com:historicalsource/joust.git
+[submodule "williams-soundroms"]
+	path = williams-soundroms
+	url = git@github.com:historicalsource/williams-soundroms.git
