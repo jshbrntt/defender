@@ -26,7 +26,7 @@ to play the game in an emulator such as
 
 ### Build Requirements
 ```sh
-sudo apt install build-essentials wine python3 flex
+sudo apt install build-essential wine python3 flex
 ```
 
 ### Build the assembler toolchain
@@ -170,7 +170,7 @@ The final module the notes mention is `samexpa7` a bunch of explosion routines a
 	    -l bin/samexap7.lst -o bin/samexap7.o
 ```
 
-Eugene's notes are much less clear on how we go about assembling the reamining source files:
+Eugene's notes are much less clear on how we go about assembling the remaining source files:
 
 ```
 mess0.src
@@ -190,10 +190,10 @@ DEFB6.SRC	2,252 LINES
 AMODE1.SRC	1,310 LINES
 BLK71.SRC	  723 LINES
 SAMEXAP7.SRC	  382 LINES
-MESS0.SRC	  955 LINES
-ROMF8.SRC	  692 LINES
-ROMC0.SRC	  925 LINES
-ROMC8.SRC	  839 LINES
+MESS0.SRC	  955 LINES < 0
+ROMF8.SRC	  692 LINES < 1
+ROMC0.SRC	  925 LINES < 2
+ROMC8.SRC	  839 LINES < 3
 ```
 
 We assemble the last four together in the order that they appear above:
