@@ -118,6 +118,9 @@ redlabel: defender
 	 	0x05b6,'8b'
 	echo "ec5b36f80f7bd93ba9e6269f0376efd6  redlabel/defend.snd" | md5sum -c
 
+defender.zip: redlabel
+	zip -r defender.zip redlabel
+
 clean:
 	-rm bin/*.o
 	-rm bin/*.lst
